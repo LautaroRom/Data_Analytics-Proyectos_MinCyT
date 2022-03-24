@@ -9,10 +9,15 @@ Los datos se extrajeron de [datasets abiertos del Ministerio de Ciencia y Tecnol
 los datos fueron transformados, limpiados y modelados mediante SQL, empleando SQL Server Management Studio.
 
 ## 2- Modelado de la base de datos
+EL PROYECTO SE ENCUENTRA EN ETAPA DE FINALIZACION. ENTRE LOS DIAS 25/03/2022 y 28/03/2022 SE ACTUALIZARA EL REPOSITORIO DE MANERA DEFINITIVA
 
 ## 3- Procesamiento de datos en SQL
+Las sentencias utilizadas para procesar las tablas base estan detalladas en el archivo [proceso_SQL.sql](/proceso_SQL.sql) del presente repositorio.
+
+EL PROYECTO SE ENCUENTRA EN ETAPA DE FINALIZACION. ENTRE LOS DIAS 25/03/2022 y 28/03/2022 SE ACTUALIZARA EL REPOSITORIO DE MANERA DEFINITIVA
 
 ## 4- Transformación y visualizacion de datos mediante Power BI
+EL PROYECTO SE ENCUENTRA EN ETAPA DE FINALIZACION. ENTRE LOS DIAS 25/03/2022 y 28/03/2022 SE ACTUALIZARA EL REPOSITORIO DE MANERA DEFINITIVA
 
 
 
