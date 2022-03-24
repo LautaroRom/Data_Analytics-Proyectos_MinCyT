@@ -5,7 +5,7 @@ A continuación se describiran los pasos realizados:
 
 ## 1- Fuente de datos
 Se utilizaron [datasets abiertos del Ministerio de Ciencia y Tecnologia](https://datasets.datos.mincyt.gob.ar/dataset/proyectos-de-ciencia-tecnologia-e-innovacion) Los mismos se encuentran disponibles ademas en la carpeta ... del presente repositorio. Posteriormente
-los datos fueron transformados, limpiados y modelados mediante SQL, utilizando SQL Server Managemente Studio. 
+los datos fueron transformados, limpiados y modelados mediante SQL, utilizando SQL Server Management Studio. 
 
 ## 2- Modelado de la base de datos
 
