@@ -1,0 +1,290 @@
+disciplina_id;gran_area_codigo;gran_area_descripcion;area_codigo;area_descripcion
+-1;-1;SIN DATOS;-1;SIN DATOS
+1;1;CIENCIAS NATURALES Y EXACTAS;1.0;SIN DATOS
+2;1;CIENCIAS NATURALES Y EXACTAS;1.1;Matemáticas
+3;1;CIENCIAS NATURALES Y EXACTAS;1.1;Matemáticas
+4;1;CIENCIAS NATURALES Y EXACTAS;1.1;Matemáticas
+5;1;CIENCIAS NATURALES Y EXACTAS;1.1;Matemáticas
+6;1;CIENCIAS NATURALES Y EXACTAS;1.2;Ciencias de la Computación e Información
+7;1;CIENCIAS NATURALES Y EXACTAS;1.2;Ciencias de la Computación e Información
+8;1;CIENCIAS NATURALES Y EXACTAS;1.2;Ciencias de la Computación e Información
+9;1;CIENCIAS NATURALES Y EXACTAS;1.3;Ciencias Físicas
+10;1;CIENCIAS NATURALES Y EXACTAS;1.3;Ciencias Físicas
+11;1;CIENCIAS NATURALES Y EXACTAS;1.3;Ciencias Físicas
+12;1;CIENCIAS NATURALES Y EXACTAS;1.3;Ciencias Físicas
+13;1;CIENCIAS NATURALES Y EXACTAS;1.3;Ciencias Físicas
+14;1;CIENCIAS NATURALES Y EXACTAS;1.3;Ciencias Físicas
+15;1;CIENCIAS NATURALES Y EXACTAS;1.3;Ciencias Físicas
+16;1;CIENCIAS NATURALES Y EXACTAS;1.3;Ciencias Físicas
+17;1;CIENCIAS NATURALES Y EXACTAS;1.4;Ciencias Químicas
+18;1;CIENCIAS NATURALES Y EXACTAS;1.4;Ciencias Químicas
+19;1;CIENCIAS NATURALES Y EXACTAS;1.4;Ciencias Químicas
+20;1;CIENCIAS NATURALES Y EXACTAS;1.4;Ciencias Químicas
+21;1;CIENCIAS NATURALES Y EXACTAS;1.4;Ciencias Químicas
+22;1;CIENCIAS NATURALES Y EXACTAS;1.4;Ciencias Químicas
+23;1;CIENCIAS NATURALES Y EXACTAS;1.5;Ciencias de la Tierra y relacionadas con el Medio Ambiente
+24;1;CIENCIAS NATURALES Y EXACTAS;1.5;Ciencias de la Tierra y relacionadas con el Medio Ambiente
+25;1;CIENCIAS NATURALES Y EXACTAS;1.5;Ciencias de la Tierra y relacionadas con el Medio Ambiente
+26;1;CIENCIAS NATURALES Y EXACTAS;1.5;Ciencias de la Tierra y relacionadas con el Medio Ambiente
+27;1;CIENCIAS NATURALES Y EXACTAS;1.5;Ciencias de la Tierra y relacionadas con el Medio Ambiente
+28;1;CIENCIAS NATURALES Y EXACTAS;1.5;Ciencias de la Tierra y relacionadas con el Medio Ambiente
+29;1;CIENCIAS NATURALES Y EXACTAS;1.5;Ciencias de la Tierra y relacionadas con el Medio Ambiente
+30;1;CIENCIAS NATURALES Y EXACTAS;1.5;Ciencias de la Tierra y relacionadas con el Medio Ambiente
+31;1;CIENCIAS NATURALES Y EXACTAS;1.5;Ciencias de la Tierra y relacionadas con el Medio Ambiente
+32;1;CIENCIAS NATURALES Y EXACTAS;1.5;Ciencias de la Tierra y relacionadas con el Medio Ambiente
+33;1;CIENCIAS NATURALES Y EXACTAS;1.5;Ciencias de la Tierra y relacionadas con el Medio Ambiente
+34;1;CIENCIAS NATURALES Y EXACTAS;1.5;Ciencias de la Tierra y relacionadas con el Medio Ambiente
+35;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+36;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+37;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+38;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+39;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+40;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+41;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+42;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+43;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+44;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+45;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+46;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+47;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+48;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+49;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+50;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+51;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+52;1;CIENCIAS NATURALES Y EXACTAS;1.7;Otras Ciencias Naturales y Exactas
+53;2;INGENIERÍAS Y TECNOLOGÍAS;2.0;SIN DATOS
+54;2;INGENIERÍAS Y TECNOLOGÍAS;2.1;Ingeniería Civil
+55;2;INGENIERÍAS Y TECNOLOGÍAS;2.1;Ingeniería Civil
+56;2;INGENIERÍAS Y TECNOLOGÍAS;2.1;Ingeniería Civil
+57;2;INGENIERÍAS Y TECNOLOGÍAS;2.1;Ingeniería Civil
+58;2;INGENIERÍAS Y TECNOLOGÍAS;2.1;Ingeniería Civil
+59;2;INGENIERÍAS Y TECNOLOGÍAS;2.1;Ingeniería Civil
+60;2;INGENIERÍAS Y TECNOLOGÍAS;2.2;Ingeniería Eléctrica, Ingeniería Electrónica e Ingeniería de la Información
+61;2;INGENIERÍAS Y TECNOLOGÍAS;2.2;Ingeniería Eléctrica, Ingeniería Electrónica e Ingeniería de la Información
+62;2;INGENIERÍAS Y TECNOLOGÍAS;2.2;Ingeniería Eléctrica, Ingeniería Electrónica e Ingeniería de la Información
+63;2;INGENIERÍAS Y TECNOLOGÍAS;2.2;Ingeniería Eléctrica, Ingeniería Electrónica e Ingeniería de la Información
+64;2;INGENIERÍAS Y TECNOLOGÍAS;2.2;Ingeniería Eléctrica, Ingeniería Electrónica e Ingeniería de la Información
+65;2;INGENIERÍAS Y TECNOLOGÍAS;2.2;Ingeniería Eléctrica, Ingeniería Electrónica e Ingeniería de la Información
+66;2;INGENIERÍAS Y TECNOLOGÍAS;2.2;Ingeniería Eléctrica, Ingeniería Electrónica e Ingeniería de la Información
+67;2;INGENIERÍAS Y TECNOLOGÍAS;2.3;Ingeniería Mecánica
+68;2;INGENIERÍAS Y TECNOLOGÍAS;2.3;Ingeniería Mecánica
+69;2;INGENIERÍAS Y TECNOLOGÍAS;2.3;Ingeniería Mecánica
+70;2;INGENIERÍAS Y TECNOLOGÍAS;2.3;Ingeniería Mecánica
+71;2;INGENIERÍAS Y TECNOLOGÍAS;2.3;Ingeniería Mecánica
+72;2;INGENIERÍAS Y TECNOLOGÍAS;2.3;Ingeniería Mecánica
+73;2;INGENIERÍAS Y TECNOLOGÍAS;2.3;Ingeniería Mecánica
+74;2;INGENIERÍAS Y TECNOLOGÍAS;2.4;Ingeniería Química
+75;2;INGENIERÍAS Y TECNOLOGÍAS;2.4;Ingeniería Química
+76;2;INGENIERÍAS Y TECNOLOGÍAS;2.4;Ingeniería Química
+77;2;INGENIERÍAS Y TECNOLOGÍAS;2.5;Ingeniería de los Materiales
+78;2;INGENIERÍAS Y TECNOLOGÍAS;2.5;Ingeniería de los Materiales
+79;2;INGENIERÍAS Y TECNOLOGÍAS;2.5;Ingeniería de los Materiales
+80;2;INGENIERÍAS Y TECNOLOGÍAS;2.5;Ingeniería de los Materiales
+81;2;INGENIERÍAS Y TECNOLOGÍAS;2.5;Ingeniería de los Materiales
+82;2;INGENIERÍAS Y TECNOLOGÍAS;2.5;Ingeniería de los Materiales
+83;2;INGENIERÍAS Y TECNOLOGÍAS;2.5;Ingeniería de los Materiales
+84;2;INGENIERÍAS Y TECNOLOGÍAS;2.6;Ingeniería Médica
+85;2;INGENIERÍAS Y TECNOLOGÍAS;2.6;Ingeniería Médica
+86;2;INGENIERÍAS Y TECNOLOGÍAS;2.6;Ingeniería Médica
+87;2;INGENIERÍAS Y TECNOLOGÍAS;2.7;Ingeniería del Medio Ambiente
+88;2;INGENIERÍAS Y TECNOLOGÍAS;2.7;Ingeniería del Medio Ambiente
+89;2;INGENIERÍAS Y TECNOLOGÍAS;2.7;Ingeniería del Medio Ambiente
+90;2;INGENIERÍAS Y TECNOLOGÍAS;2.7;Ingeniería del Medio Ambiente
+91;2;INGENIERÍAS Y TECNOLOGÍAS;2.7;Ingeniería del Medio Ambiente
+92;2;INGENIERÍAS Y TECNOLOGÍAS;2.7;Ingeniería del Medio Ambiente
+93;2;INGENIERÍAS Y TECNOLOGÍAS;2.7;Ingeniería del Medio Ambiente
+94;2;INGENIERÍAS Y TECNOLOGÍAS;2.8;Biotecnología del Medio Ambiente
+95;2;INGENIERÍAS Y TECNOLOGÍAS;2.8;Biotecnología del Medio Ambiente
+96;2;INGENIERÍAS Y TECNOLOGÍAS;2.8;Biotecnología del Medio Ambiente
+97;2;INGENIERÍAS Y TECNOLOGÍAS;2.8;Biotecnología del Medio Ambiente
+98;2;INGENIERÍAS Y TECNOLOGÍAS;2.9;Biotecnología Industrial
+99;2;INGENIERÍAS Y TECNOLOGÍAS;2.9;Biotecnología Industrial
+100;2;INGENIERÍAS Y TECNOLOGÍAS;2.9;Biotecnología Industrial
+101;2;INGENIERÍAS Y TECNOLOGÍAS;2.9;Biotecnología Industrial
+102;2;INGENIERÍAS Y TECNOLOGÍAS;2.10;Nanotecnología
+103;2;INGENIERÍAS Y TECNOLOGÍAS;2.10;Nanotecnología
+104;2;INGENIERÍAS Y TECNOLOGÍAS;2.10;Nanotecnología
+105;2;INGENIERÍAS Y TECNOLOGÍAS;2.11;Otras Ingenierías y Tecnologías
+106;2;INGENIERÍAS Y TECNOLOGÍAS;2.11;Otras Ingenierías y Tecnologías
+107;2;INGENIERÍAS Y TECNOLOGÍAS;2.11;Otras Ingenierías y Tecnologías
+108;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.0;SIN DATOS
+109;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.1;Medicina Básica
+110;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.1;Medicina Básica
+111;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.1;Medicina Básica
+112;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.1;Medicina Básica
+113;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.1;Medicina Básica
+114;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.1;Medicina Básica
+115;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.1;Medicina Básica
+116;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.1;Medicina Básica
+117;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.1;Medicina Básica
+118;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.1;Medicina Básica
+119;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.1;Medicina Básica
+120;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+121;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+122;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+123;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+124;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+125;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+126;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+127;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+128;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+129;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+130;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+131;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+132;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+133;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+134;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+135;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+136;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+137;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+138;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+139;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+140;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+141;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+142;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+143;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+144;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+145;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+146;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+147;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+148;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+149;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+150;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+151;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+152;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+153;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+154;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+155;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+156;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+157;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+158;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+159;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+160;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+161;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+162;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+163;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+164;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+165;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.4;Biotecnología de la Salud
+166;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.4;Biotecnología de la Salud
+167;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.4;Biotecnología de la Salud
+168;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.4;Biotecnología de la Salud
+169;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.4;Biotecnología de la Salud
+170;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.4;Biotecnología de la Salud
+171;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.5;Otras Ciencias Médicas
+172;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.5;Otras Ciencias Médicas
+173;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.5;Otras Ciencias Médicas
+174;4;CIENCIAS AGRÍCOLAS;4.0;SIN DATOS
+175;4;CIENCIAS AGRÍCOLAS;4.1;Agricultura, Silvicultura y Pesca
+176;4;CIENCIAS AGRÍCOLAS;4.1;Agricultura, Silvicultura y Pesca
+177;4;CIENCIAS AGRÍCOLAS;4.1;Agricultura, Silvicultura y Pesca
+178;4;CIENCIAS AGRÍCOLAS;4.1;Agricultura, Silvicultura y Pesca
+179;4;CIENCIAS AGRÍCOLAS;4.1;Agricultura, Silvicultura y Pesca
+180;4;CIENCIAS AGRÍCOLAS;4.1;Agricultura, Silvicultura y Pesca
+181;4;CIENCIAS AGRÍCOLAS;4.1;Agricultura, Silvicultura y Pesca
+182;4;CIENCIAS AGRÍCOLAS;4.2;Producción Animal y Lechería
+183;4;CIENCIAS AGRÍCOLAS;4.2;Producción Animal y Lechería
+184;4;CIENCIAS AGRÍCOLAS;4.2;Producción Animal y Lechería
+185;4;CIENCIAS AGRÍCOLAS;4.2;Producción Animal y Lechería
+186;4;CIENCIAS AGRÍCOLAS;4.3;Ciencias Veterinarias
+187;4;CIENCIAS AGRÍCOLAS;4.4;Biotecnología Agropecuaria
+188;4;CIENCIAS AGRÍCOLAS;4.4;Biotecnología Agropecuaria
+189;4;CIENCIAS AGRÍCOLAS;4.4;Biotecnología Agropecuaria
+190;4;CIENCIAS AGRÍCOLAS;4.4;Biotecnología Agropecuaria
+191;4;CIENCIAS AGRÍCOLAS;4.5;Otras Ciencias Agrícolas
+192;5;CIENCIAS SOCIALES;5.0;SIN DATOS
+193;5;CIENCIAS SOCIALES;5.1;Psicología
+194;5;CIENCIAS SOCIALES;5.1;Psicología
+195;5;CIENCIAS SOCIALES;5.1;Psicología
+196;5;CIENCIAS SOCIALES;5.2;Economía y Negocios
+197;5;CIENCIAS SOCIALES;5.2;Economía y Negocios
+198;5;CIENCIAS SOCIALES;5.2;Economía y Negocios
+199;5;CIENCIAS SOCIALES;5.2;Economía y Negocios
+200;5;CIENCIAS SOCIALES;5.3;Ciencias de la Educación
+201;5;CIENCIAS SOCIALES;5.3;Ciencias de la Educación
+202;5;CIENCIAS SOCIALES;5.3;Ciencias de la Educación
+203;5;CIENCIAS SOCIALES;5.4;Sociología
+204;5;CIENCIAS SOCIALES;5.4;Sociología
+205;5;CIENCIAS SOCIALES;5.4;Sociología
+206;5;CIENCIAS SOCIALES;5.4;Sociología
+207;5;CIENCIAS SOCIALES;5.4;Sociología
+208;5;CIENCIAS SOCIALES;5.5;Derecho
+209;5;CIENCIAS SOCIALES;5.6;Ciencia Política
+210;5;CIENCIAS SOCIALES;5.6;Ciencia Política
+211;5;CIENCIAS SOCIALES;5.6;Ciencia Política
+212;5;CIENCIAS SOCIALES;5.6;Ciencia Política
+213;5;CIENCIAS SOCIALES;5.7;Geografía Económica y Social
+214;5;CIENCIAS SOCIALES;5.7;Geografía Económica y Social
+215;5;CIENCIAS SOCIALES;5.7;Geografía Económica y Social
+216;5;CIENCIAS SOCIALES;5.7;Geografía Económica y Social
+217;5;CIENCIAS SOCIALES;5.7;Geografía Económica y Social
+218;5;CIENCIAS SOCIALES;5.8;Comunicación y Medios
+219;5;CIENCIAS SOCIALES;5.8;Comunicación y Medios
+220;5;CIENCIAS SOCIALES;5.8;Comunicación y Medios
+221;5;CIENCIAS SOCIALES;5.8;Comunicación y Medios
+222;5;CIENCIAS SOCIALES;5.9;Otras Ciencias Sociales
+223;5;CIENCIAS SOCIALES;5.9;Otras Ciencias Sociales
+224;5;CIENCIAS SOCIALES;5.9;Otras Ciencias Sociales
+225;6;HUMANIDADES;6.0;SIN DATOS
+226;6;HUMANIDADES;6.1;Historia y Arqueología 
+227;6;HUMANIDADES;6.1;Historia y Arqueología 
+228;6;HUMANIDADES;6.1;Historia y Arqueología 
+229;6;HUMANIDADES;6.2;Lengua y Literatura
+230;6;HUMANIDADES;6.2;Lengua y Literatura
+231;6;HUMANIDADES;6.2;Lengua y Literatura
+232;6;HUMANIDADES;6.2;Lengua y Literatura
+233;6;HUMANIDADES;6.2;Lengua y Literatura
+234;6;HUMANIDADES;6.2;Lengua y Literatura
+235;6;HUMANIDADES;6.2;Lengua y Literatura
+236;6;HUMANIDADES;6.3;Filosofía, Ética y Religión
+237;6;HUMANIDADES;6.3;Filosofía, Ética y Religión
+238;6;HUMANIDADES;6.3;Filosofía, Ética y Religión
+239;6;HUMANIDADES;6.3;Filosofía, Ética y Religión
+240;6;HUMANIDADES;6.3;Filosofía, Ética y Religión
+241;6;HUMANIDADES;6.4;Arte
+242;6;HUMANIDADES;6.4;Arte
+243;6;HUMANIDADES;6.4;Arte
+244;6;HUMANIDADES;6.4;Arte
+245;6;HUMANIDADES;6.4;Arte
+246;6;HUMANIDADES;6.4;Arte
+247;6;HUMANIDADES;6.5;Otras Humanidades
+248;1;CIENCIAS NATURALES Y EXACTAS;1.7;Otras Ciencias Naturales y Exactas
+249;4;CIENCIAS AGRÍCOLAS;4.3;Ciencias Veterinarias
+250;4;CIENCIAS AGRÍCOLAS;4.5;Otras Ciencias Agrícolas
+251;5;CIENCIAS SOCIALES;5.5;Derecho
+252;6;HUMANIDADES;6.5;Otras Humanidades
+253;1;CIENCIAS NATURALES Y EXACTAS;1.1;Matemáticas
+254;1;CIENCIAS NATURALES Y EXACTAS;1.2;Ciencias de la Computación e Información
+255;1;CIENCIAS NATURALES Y EXACTAS;1.3;Ciencias Físicas
+256;1;CIENCIAS NATURALES Y EXACTAS;1.4;Ciencias Químicas
+257;1;CIENCIAS NATURALES Y EXACTAS;1.5;Ciencias de la Tierra y relacionadas con el Medio Ambiente
+258;1;CIENCIAS NATURALES Y EXACTAS;1.6;Ciencias Biológicas
+259;2;INGENIERÍAS Y TECNOLOGÍAS;2.1;Ingeniería Civil
+260;2;INGENIERÍAS Y TECNOLOGÍAS;2.2;Ingeniería Eléctrica, Ingeniería Electrónica e Ingeniería de la Información
+261;2;INGENIERÍAS Y TECNOLOGÍAS;2.3;Ingeniería Mecánica
+262;2;INGENIERÍAS Y TECNOLOGÍAS;2.4;Ingeniería Química
+263;2;INGENIERÍAS Y TECNOLOGÍAS;2.5;Ingeniería de los Materiales
+264;2;INGENIERÍAS Y TECNOLOGÍAS;2.6;Ingeniería Médica
+265;2;INGENIERÍAS Y TECNOLOGÍAS;2.7;Ingeniería del Medio Ambiente
+266;2;INGENIERÍAS Y TECNOLOGÍAS;2.8;Biotecnología del Medio Ambiente
+267;2;INGENIERÍAS Y TECNOLOGÍAS;2.9;Biotecnología Industrial
+268;2;INGENIERÍAS Y TECNOLOGÍAS;2.10;Nanotecnología
+269;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.1;Medicina Básica
+270;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.2;Medicina Clínica  
+271;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.3;Ciencias de la Salud
+272;3;CIENCIAS MÉDICAS Y DE LA SALUD;3.4;Biotecnología de la Salud
+273;4;CIENCIAS AGRÍCOLAS;4.1;Agricultura, Silvicultura y Pesca
+274;4;CIENCIAS AGRÍCOLAS;4.2;Producción Animal y Lechería
+275;4;CIENCIAS AGRÍCOLAS;4.3;Ciencias Veterinarias
+276;4;CIENCIAS AGRÍCOLAS;4.4;Biotecnología Agropecuaria
+277;5;CIENCIAS SOCIALES;5.1;Psicología
+278;5;CIENCIAS SOCIALES;5.2;Economía y Negocios
+279;5;CIENCIAS SOCIALES;5.3;Ciencias de la Educación
+280;5;CIENCIAS SOCIALES;5.4;Sociología
+281;5;CIENCIAS SOCIALES;5.5;Derecho
+282;5;CIENCIAS SOCIALES;5.6;Ciencia Política
+283;5;CIENCIAS SOCIALES;5.7;Geografía Económica y Social
+284;5;CIENCIAS SOCIALES;5.8;Comunicación y Medios
+285;6;HUMANIDADES;6.1;Historia y Arqueología 
+286;6;HUMANIDADES;6.2;Lengua y Literatura
+287;6;HUMANIDADES;6.3;Filosofía, Ética y Religión
+288;6;HUMANIDADES;6.4;Arte
