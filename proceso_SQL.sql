@@ -1,7 +1,7 @@
 -- CREACION DE LA BASE DE DATOS--
 CREATE DATABASE Proyectos_MINCYT;
 
--- CREAR COLUMNA AÑO (SER SI SE PUEDE PARA TODAS EN UNA SOLA SENTENCIA)
+-- CREAR COLUMNA AÑO 
 ALTER TABLE proyectos_2019
 ADD anio int;
 
@@ -12,7 +12,7 @@ UPDATE proyectos_2017 SET anio = 2017
 UPDATE proyectos_2018 SET anio = 2018
 UPDATE proyectos_2019 SET anio = 2019
 
--- GENERAR UNA SOLA TABLA proyectos (uno para cada año agregado, ver si existe formula mas optima)
+-- GENERAR UNA SOLA TABLA proyectos (uno para cada año agregado)
 INSERT INTO dbo.proyectos_2015 (proyecto_id, proyecto_fuente, moneda_id, monto_total_solicitado, monto_total_adjudicado, monto_financiado_solicitado, monto_financiado_adjudicado, tipo_proyecto_id, estado_id, fondo_anpcyt, cantidad_miembros_F, cantidad_miembros_M, sexo_director, anio)
 SELECT proyecto_id, proyecto_fuente, moneda_id, monto_total_solicitado, monto_total_adjudicado, monto_financiado_solicitado, monto_financiado_adjudicado, tipo_proyecto_id, estado_id, fondo_anpcyt, cantidad_miembros_F, cantidad_miembros_M, sexo_director, anio
 FROM dbo.proyectos_2019
