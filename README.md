@@ -11,6 +11,8 @@ los datos fueron transformados, limpiados y modelados mediante SQL, empleando SQ
 ## 2- Modelado de la base de datos
 EL PROYECTO SE ENCUENTRA EN ETAPA DE FINALIZACION. ENTRE LOS DIAS 25/03/2022 y 28/03/2022 SE ACTUALIZARA EL REPOSITORIO DE MANERA DEFINITIVA
 
+![imagen](/imagenes_readme/tabla1.png)
+
 ## 3- Procesamiento de datos en SQL
 Las sentencias utilizadas para procesar las tablas base estan detalladas en el archivo [proceso_SQL.sql](/proceso_SQL.sql) del presente repositorio.
 
