@@ -12,7 +12,7 @@ los datos fueron transformados, limpiados y modelados mediante SQL, empleando SQ
 De las tablas extraidas del dataset mencionado ser generaron las descriptas en las siguientes imagenes, indicadas con sus claves primarias y claves foraneas respectivas.
 
 ![Descripcion de Tablas ](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Tabla1.png)
-![Descripcion de Tablas ](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Tabla2.png)
+![Descripcion de Tablas ](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Tabla_2.png)
 
 A continuación se explicíta el modelo entidad relacion de la base de datos, con el tipo de relación y el sentido de la misma entre las tablas.
 ![Modelo E-R](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Modelo%20E-R.png)
