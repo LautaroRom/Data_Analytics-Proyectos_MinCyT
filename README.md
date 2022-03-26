@@ -9,11 +9,12 @@ Los datos se extrajeron de [datasets abiertos del Ministerio de Ciencia y Tecnol
 los datos fueron transformados, limpiados y modelados mediante SQL, empleando SQL Server Management Studio.
 
 ## 2- Modelado de la base de datos
+De las tablas extraidas del dataset mencionado ser generaron las descriptas en las siguientes imagenes, indicadas con sus claves primarias y claves foraneas respectivas.
 
 ![Descripcion de Tablas ](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Tabla1.png)
 ![Descripcion de Tablas ](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Tabla2.png)
 
-
+A continuación se explicíta el modelo entidad relacion de la base de datos, con el tipo de relación y el sentido de la misma entre las tablas.
 ![Modelo E-R](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Modelo%20E-R.png)
 
 EL PROYECTO SE ENCUENTRA EN ETAPA DE FINALIZACION. ENTRE LOS DIAS 25/03/2022 y 28/03/2022 SE ACTUALIZARA EL REPOSITORIO DE MANERA DEFINITIVA
