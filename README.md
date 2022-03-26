@@ -5,7 +5,7 @@ El presente proyecto tiene como finalidad generar un tablero de información din
 A continuación se describiran los pasos realizados:
 
 ## 1- Fuente de datos
-Los datos se extrajeron de [datasets abiertos del Ministerio de Ciencia y Tecnologia](https://datasets.datos.mincyt.gob.ar/dataset/proyectos-de-ciencia-tecnologia-e-innovacion) Las tablas especificas usadas en este proyecto se encuentran en la carpeta [Tablas Base](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/tree/main/Tablas%20Base) del presente repositorio. Posteriormente
+Los datos se extrajeron de [datasets abiertos del Ministerio de Ciencia y Tecnologia](https://datasets.datos.mincyt.gob.ar/dataset/proyectos-de-ciencia-tecnologia-e-innovacion). Las tablas especificas usadas en este proyecto se encuentran en la carpeta [Tablas Base](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/tree/main/Tablas%20Base) del presente repositorio. Posteriormente
 los datos fueron transformados, limpiados y modelados mediante SQL, empleando SQL Server Management Studio.
 
 ## 2- Modelado de la base de datos
