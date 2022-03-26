@@ -9,11 +9,14 @@ Los datos se extrajeron de [datasets abiertos del Ministerio de Ciencia y Tecnol
 los datos fueron transformados, limpiados y modelados mediante SQL, empleando SQL Server Management Studio.
 
 ## 2- Modelado de la base de datos
-EL PROYECTO SE ENCUENTRA EN ETAPA DE FINALIZACION. ENTRE LOS DIAS 25/03/2022 y 28/03/2022 SE ACTUALIZARA EL REPOSITORIO DE MANERA DEFINITIVA
 
 ![Descripcion de Tablas ](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Tabla1.png)
+![Descripcion de Tablas ](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Tabla2.png)
+
 
 ![Modelo E-R](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Modelo%20E-R.png)
+
+EL PROYECTO SE ENCUENTRA EN ETAPA DE FINALIZACION. ENTRE LOS DIAS 25/03/2022 y 28/03/2022 SE ACTUALIZARA EL REPOSITORIO DE MANERA DEFINITIVA
 
 ## 3- Procesamiento de datos en SQL
 Las sentencias utilizadas para procesar las tablas base estan detalladas en el archivo [proceso_SQL.sql](/proceso_SQL.sql) del presente repositorio.
