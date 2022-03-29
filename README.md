@@ -48,7 +48,7 @@ Las sentencias SQL utilizadas para realizar este conjunto de procesos estan deta
 
 
 ## 4- Transformación y visualización de datos mediante Power BI
-Una vez modelada la base de datos se conectó Microsft Power BI a la misma y se realizaron las siguientes transformaciones:
+Una vez modelada la base de datos se conectó Microsoft Power BI a la misma y se realizaron las siguientes transformaciones:
 
 - Se especificaron las "medidas resumenes" y "no resumenes" a los campos correspondientes
 
@@ -58,11 +58,11 @@ En el informe se establecieron 4 solapas:
  
 -"Portada": Titúlo, Autor, índice.
 
--"Proyectos": Información gráfica de montos solicitados y financiados y cantidades de proyectos con la posibilidad de aplicar varios filtros.
+-"Proyectos": Información gráfica de montos solicitados y financiados, y  las cantidades de proyectos con la posibilidad de aplicar varios filtros.
 
--"Disciplinas": Información gráfica sobre las distribución de los proyectos en relación a las discintas areas disciplinarias y los tipos de proyectos, con la posibilidad de filtrar mediante el año.
+-"Disciplinas": Información gráfica sobre las distribución de los proyectos en relación a las distintas areas disciplinarias y los tipos de proyectos, con la posibilidad de filtrar mediante año y periodos entre años. 
 
--"Género":  Información gráfica sobre la cantidad de miembros y directores/as en cada proyecto con la posibilidad de aplicar varios filtros.
+-"Género":  Información gráfica sobre la cantidad de mujeres y varones miembros y directores/as en cada proyecto, con la posibilidad de aplicar varios filtros.
 
 EL PROYECTO SE ENCUENTRA EN ETAPA DE FINALIZACIÓN. DURANTE EL DIA 29/03/2022 SE ACTUALIZARA ESTA SECCIÓN Y EL RESTO DEL REPOSITORIO DE MANERA DEFINITIVA.
 
