@@ -1,18 +1,35 @@
--- CREACION DE LA BASE DE DATOS--
+-- CREACIÓN DE LA BASE DE DATOS--
 CREATE DATABASE Proyectos_MINCYT;
 
--- CREAR COLUMNA AÑO 
+-- CREAR COLUMNA AÑO PARA CADA TABLA proyecto_año
+ALTER TABLE proyectos_2015
+ADD anio int;
+ALTER TABLE proyectos_2016
+ADD anio int;
+ALTER TABLE proyectos_2017
+ADD anio int;
+ALTER TABLE proyectos_2018
+ADD anio int;
 ALTER TABLE proyectos_2019
 ADD anio int;
 
---AGREGAR EL AÑO CORRESPONDIENTE A CADA PROYECTO
+--AGREGAR UNA COLUMNA CON EL AÑO CORRESPONDIENTE A CADA PROYECTO
 UPDATE proyectos_2015 SET anio = 2015
 UPDATE proyectos_2016 SET anio = 2016
 UPDATE proyectos_2017 SET anio = 2017
 UPDATE proyectos_2018 SET anio = 2018
 UPDATE proyectos_2019 SET anio = 2019
 
--- GENERAR UNA SOLA TABLA proyectos (uno para cada año agregado)
+-- UNIFICACIÓN DE TODAS LAS TABLAS proyecto_año EN LA TABLA proyecto_2015 RENOMBRADA POSTERIORMENTE COMO proyectos
+INSERT INTO dbo.proyectos_2015 (proyecto_id, proyecto_fuente, moneda_id, monto_total_solicitado, monto_total_adjudicado, monto_financiado_solicitado, monto_financiado_adjudicado, tipo_proyecto_id, estado_id, fondo_anpcyt, cantidad_miembros_F, cantidad_miembros_M, sexo_director, anio)
+SELECT proyecto_id, proyecto_fuente, moneda_id, monto_total_solicitado, monto_total_adjudicado, monto_financiado_solicitado, monto_financiado_adjudicado, tipo_proyecto_id, estado_id, fondo_anpcyt, cantidad_miembros_F, cantidad_miembros_M, sexo_director, anio
+FROM dbo.proyectos_2016
+INSERT INTO dbo.proyectos_2015 (proyecto_id, proyecto_fuente, moneda_id, monto_total_solicitado, monto_total_adjudicado, monto_financiado_solicitado, monto_financiado_adjudicado, tipo_proyecto_id, estado_id, fondo_anpcyt, cantidad_miembros_F, cantidad_miembros_M, sexo_director, anio)
+SELECT proyecto_id, proyecto_fuente, moneda_id, monto_total_solicitado, monto_total_adjudicado, monto_financiado_solicitado, monto_financiado_adjudicado, tipo_proyecto_id, estado_id, fondo_anpcyt, cantidad_miembros_F, cantidad_miembros_M, sexo_director, anio
+FROM dbo.proyectos_2017
+INSERT INTO dbo.proyectos_2015 (proyecto_id, proyecto_fuente, moneda_id, monto_total_solicitado, monto_total_adjudicado, monto_financiado_solicitado, monto_financiado_adjudicado, tipo_proyecto_id, estado_id, fondo_anpcyt, cantidad_miembros_F, cantidad_miembros_M, sexo_director, anio)
+SELECT proyecto_id, proyecto_fuente, moneda_id, monto_total_solicitado, monto_total_adjudicado, monto_financiado_solicitado, monto_financiado_adjudicado, tipo_proyecto_id, estado_id, fondo_anpcyt, cantidad_miembros_F, cantidad_miembros_M, sexo_director, anio
+FROM dbo.proyectos_2018
 INSERT INTO dbo.proyectos_2015 (proyecto_id, proyecto_fuente, moneda_id, monto_total_solicitado, monto_total_adjudicado, monto_financiado_solicitado, monto_financiado_adjudicado, tipo_proyecto_id, estado_id, fondo_anpcyt, cantidad_miembros_F, cantidad_miembros_M, sexo_director, anio)
 SELECT proyecto_id, proyecto_fuente, moneda_id, monto_total_solicitado, monto_total_adjudicado, monto_financiado_solicitado, monto_financiado_adjudicado, tipo_proyecto_id, estado_id, fondo_anpcyt, cantidad_miembros_F, cantidad_miembros_M, sexo_director, anio
 FROM dbo.proyectos_2019
@@ -28,18 +45,16 @@ cantidad_miembros_F int NULL,
 cantidad_miembros_M int NULL,
 sexo_director varchar(50));
 
---COPIAR VALORES DE TABLA proyecto A genero
+--COPIAR VALORES DE TABLA proyectos A genero
 INSERT INTO dbo.genero (proyecto_id, cantidad_miembros_F, cantidad_miembros_M, sexo_director)
 SELECT proyecto_id, cantidad_miembros_F, cantidad_miembros_M, sexo_director
 FROM dbo.proyectos
 
-SELECT * FROM dbo.genero;
-
---ELIMINAR COLUMNAS DE genero EN proyectos
+--ELIMINAR COLUMNAS EN TABLA proyectos QUE FUERON COPIADAS A LA TABLA genero
 ALTER TABLE proyectos
 DROP COLUMN cantidad_miembros_F, cantidad_miembros_M, sexo_director
 
---CREAR TABLA montos
+--CREAR TABLA montos Y PASARLE DE LA TABLA proyectos LAS COLUMNAS CORRESPONDIENTES
 CREATE TABLE montos (monto_id int IDENTITY PRIMARY KEY,
 proyecto_id int,
 moneda_id int NULL,
@@ -52,30 +67,17 @@ INSERT INTO dbo.montos (proyecto_id, moneda_id, monto_total_solicitado, monto_to
 SELECT proyecto_id, moneda_id, monto_total_solicitado, monto_total_adjudicado, monto_financiado_solicitado, monto_financiado_adjudicado
 FROM dbo.proyectos
 
---ELIMINAR DE TABLA proyectos LOS DATOS DE montos
+--ELIMINAR DE TABLA proyectos LAS COLUMNAS AHORA EN montos
 ALTER TABLE proyectos
 DROP COLUMN moneda_id, monto_total_solicitado, monto_total_adjudicado, monto_financiado_solicitado, monto_financiado_adjudicado;
 
--- CREAR TABLA gran_area
-CREATE TABLE gran_area (gran_area_codigo int IDENTITY PRIMARY KEY,
-gran_area_descripcion varchar(200));
-
---DAR VALORES A gran_area (repetido para cada una de las 6 areas)
-INSERT INTO gran_area (gran_area_descripcion)
-VALUES ('HUMANIDADES');
-SELECT * FROM gran_area;
-
---TABLA area_conocimiento
-ALTER TABLE area_conocimiento
-DROP COLUMN gran_area_descripcion
 
 --AGREGAR ID A LA TABLA proyecto_disciplina
 ALTER TABLE proyecto_disciplina
 ADD id_tabla_disciplina int IDENTITY PRIMARY KEY;
 
-SELECT * FROM proyecto_disciplina
 
--- ESTABLECER PK Y FK. Revisar en las tablas alteradas a la planificacion
+-- ESTABLECER LAS PK Y FK PARA CADA TABLA
 
 -- ESTABLECER PK de TABLA proyectos
 ALTER TABLE proyectos ALTER COLUMN proyecto_id int;
@@ -86,10 +88,6 @@ ALTER TABLE proyectos ADD PRIMARY KEY (proyecto_id);
 -- ESTABLECER PK DE TABLA estado_proyecto
 ALTER TABLE estado_proyecto ALTER COLUMN estado_id INT NOT NULL;
 ALTER TABLE estado_proyecto ADD PRIMARY KEY (estado_id);
-
--- ESTABLECER PK DE TABLA area_conocimiento
-ALTER TABLE area_conocimiento ALTER COLUMN disciplina_id INT NOT NULL;
-ALTER TABLE area_conocimiento ADD PRIMARY KEY (disciplina_id);
 
 --ESTABLECER PK DE TABLA ref_moneda
 ALTER TABLE ref_moneda ALTER COLUMN moneda_id INT NOT NULL;
@@ -104,6 +102,7 @@ ALTER TABLE proyectos ALTER COLUMN estado_id INT NOT NULL;
 ALTER TABLE proyectos ADD FOREIGN KEY (estado_id) REFERENCES estado_proyecto(estado_id);
 ALTER TABLE proyectos ALTER COLUMN tipo_proyecto_id INT NOT NULL;
 
+-- DETECTAR LOS REGISTROS DE LA COLUMNA tipo_proyecto_id QUE NO TIENEN SU EQUIVALENTE EN LA TABLA proyectos Y QUE SON NULOS
 SELECT tipo_proyecto_id FROM proyectos
 WHERE tipo_proyecto_id NOT IN
 (SELECT tipo_proyecto_id FROM tipo_proyecto)
@@ -121,43 +120,78 @@ ALTER TABLE montos ALTER COLUMN proyecto_id INT NOT NULL;
 ALTER TABLE montos ADD FOREIGN KEY (proyecto_id) REFERENCES proyectos(proyecto_id);
 ALTER TABLE montos ADD FOREIGN KEY (moneda_id) REFERENCES ref_moneda(moneda_id);
 
--- ESTABLECER FK DE TABLA proyecto_disciplina
+-- ESTABLECER FK DE TABLA proyecto_disciplina, ELIMINANDO ANTES DE proyecto disciplina LOS 12630 REGISTROS PERTENECIENTES A AÑOS ANTERIORES A 2015
 ALTER TABLE proyecto_disciplina ALTER COLUMN proyecto_id INT NOT NULL;
--- proyecto disciplina tiene: 19573 registros. proyectos tiene 6943
 DELETE FROM proyecto_disciplina WHERE proyecto_id NOT IN (SELECT proyecto_id FROM proyectos);
---quedaron 5816 registros
 ALTER TABLE proyecto_disciplina ADD FOREIGN KEY (proyecto_id) REFERENCES proyectos(proyecto_id);
 
 
-ALTER TABLE proyecto_disciplina ALTER COLUMN disciplina_id INT NOT NULL;
---CAMBIAR EL VALOR 0 de proyecto_disciplina EN COLUMNA disciplina_id, A -1 ASI CONCUERDA CON LA TABLA area_conocimiento
---EN proyecto_disciplina existen 515 valores en 0.
-UPDATE proyecto_disciplina SET disciplina_id = -1  WHERE disciplina_id = 0;
-ALTER TABLE proyecto_disciplina ADD FOREIGN KEY (disciplina_id) REFERENCES area_conocimiento(disciplina_id);
-
--- ESTABLECER FK DE TABLA area_conocimiento
-ALTER TABLE area_conocimiento ALTER COLUMN gran_area_codigo INT NOT NULL;
-ALTER TABLE area_conocimiento ADD FOREIGN KEY (gran_area_codigo) REFERENCES gran_area(gran_area_codigo);
-
--- RECREACION TABLA gran_area con valor -1
-CREATE TABLE gran_area (gran_area_codigo INT NOT NULL PRIMARY KEY,
-gran_area_descripcion VARCHAR(50) NOT NULL);
-
-INSERT INTO gran_area (gran_area_codigo, gran_area_descripcion)
-VALUES (2, 'INGENIERIAS Y TECNOLOGIAS'), (3, 'CIENCIAS MEDICAS Y DE LA SALUD'), (4, 'CIENCIAS AGRICOLAS'), (5, 'CIENCIAS SOCIALES'), (6, 'HUMANIDADES')
-
-
---FORMULA USADA PARA BUSCAR INCONSISTENCIAS DE VALORES ENTRE TABLAS
-SELECT disciplina_id FROM proyecto_disciplina
-WHERE disciplina_id NOT IN
-(SELECT disciplina_id FROM area_conocimiento)
-
--- ELIMINAR TABLAS INNECESARIAS proyecto_2016(2017, 2018, 2019)
+-- ELIMINAR TABLAS AHORA INNECESARIAS
 DROP TABLE proyectos_2016, proyectos_2017, proyectos_2018, proyectos_2019;
 
 --ELIMINAR COLUMNA codigo_identificacion EN proyectos
 ALTER TABLE proyectos
 DROP COLUMN codigo_identificacion;
 
---CAMBIAR area_codigo DE area_conocimiento A INT
-ALTER TABLE area_conocimiento ALTER COLUMN area_codigo DECIMAL;
+--CAMBIAR IDENTIFICADOR DE disciplina_id IGUALANDOLAS A LOS IDENTIFICADORES DE LOS VALORES DE GRAN AREA DEL CONOCOCIMIENTO CORRESPONDIENTES
+UPDATE proyecto_disciplina SET disciplina_id = 1
+WHERE disciplina_id >= 2 AND disciplina_id <= 52
+
+UPDATE proyecto_disciplina SET disciplina_id = 2
+WHERE disciplina_id >= 53 AND disciplina_id <= 107
+
+UPDATE proyecto_disciplina SET disciplina_id = 3
+WHERE disciplina_id >= 108 AND disciplina_id <= 173
+
+UPDATE proyecto_disciplina SET disciplina_id = 4
+WHERE disciplina_id >= 174 AND disciplina_id <= 191
+
+UPDATE proyecto_disciplina SET disciplina_id = 5
+WHERE disciplina_id >= 192 AND disciplina_id <= 224
+
+UPDATE proyecto_disciplina SET disciplina_id = 6
+WHERE disciplina_id >= 225 AND disciplina_id <= 247
+
+
+--AGREGAR LOS VALORES QUE FALTAN DE proyecto_id DE LA TABLA proyectos A LA TABLA proyecto_disciplina
+INSERT INTO proyecto_disciplina (proyecto_id)
+SELECT proyecto_id FROM proyectos
+WHERE proyecto_id NOT IN
+(SELECT proyecto_id FROM proyecto_disciplina)
+
+--AGREGAR -1 A LOS VALORES NULL
+UPDATE proyecto_disciplina SET disciplina_id = -1 WHERE disciplina_id IS NULL;
+
+
+--ENCONTRAR DUPLICADOS EN proyecto_disciplina
+WITH C AS
+(
+SELECT proyecto_id, disciplina_id, id_tabla_disciplina,
+ROW_NUMBER() OVER (PARTITION BY
+                    proyecto_id ORDER BY proyecto_id) AS DUPLICADO
+FROM proyecto_disciplina
+)
+SELECT * FROM C
+WHERE DUPLICADO > 1
+
+-- BORRAR LOS DUPLICADOS
+WITH C AS
+(
+SELECT proyecto_id, disciplina_id, id_tabla_disciplina,
+ROW_NUMBER() OVER (PARTITION BY
+                    proyecto_id ORDER BY proyecto_id) AS DUPLICADO
+FROM proyecto_disciplina
+)
+DELETE FROM C
+WHERE DUPLICADO > 1
+
+-- AGREGAR A PROYECTO_DISCIPLINA COLUMNA DISCIPLINA_DESCRIPCION CON SUS VALORES
+ALTER TABLE proyecto_disciplina ADD disciplina_desc VARCHAR(200)
+
+UPDATE proyecto_disciplina SET disciplina_desc = 'SIN DATOS' WHERE disciplina_id = -1
+UPDATE proyecto_disciplina SET disciplina_desc = 'CIENCIAS NATURALES Y EXACTAS' WHERE disciplina_id = 1;
+UPDATE proyecto_disciplina SET disciplina_desc = 'INGENIERIAS Y TECNOLOGIAS' WHERE disciplina_id = 2;
+UPDATE proyecto_disciplina SET disciplina_desc = 'CIENCIAS MEDICAS Y DE LA SALUD' WHERE disciplina_id = 3;
+UPDATE proyecto_disciplina SET disciplina_desc = 'CIENCIAS AGRICOLAS' WHERE disciplina_id = 4;
+UPDATE proyecto_disciplina SET disciplina_desc = 'CIENCIAS SOCIALES' WHERE disciplina_id = 5;
+UPDATE proyecto_disciplina SET disciplina_desc = 'HUMANIDADES' WHERE disciplina_id = 6;
