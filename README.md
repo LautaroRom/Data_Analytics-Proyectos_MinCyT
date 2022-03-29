@@ -27,7 +27,17 @@ Por último a continuación se explicíta el modelo entidad-relación de la base
 ![Modelo E-R](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Modelo%20Entidad-Relacion.png)
 
 
-## 3- Procesamiento de datos en SQL
+## 3- Procesamiento en SQL
+Con el objetivo de limpiar la base de datos de registros y campos innecesarios al objetivo del analisis, y de crear las tablas establecidas en el modelo anterior se procedio mediante SQL Server Management Studio a:
+
+1- Crear la base de datos e importar las "tablas base" indicadas anteriormente
+
+2- Unificar los datos principales procedientes de las tablas con formato "proyecto_año" en una sola tabla llamada "proyectos", indicando en una columna el año correspondiente a cada proyecto
+
+3- De la tabla principal "proyectos" derivar las tablas "genero" y "montos" con los campos y registros correspondientes
+
+4- ....
+
 Las sentencias utilizadas para procesar las tablas base estan detalladas en el archivo [proceso_SQL.sql](/proceso_SQL.sql) del presente repositorio.
 
 EL PROYECTO SE ENCUENTRA EN ETAPA DE FINALIZACIÓN. ENTRE LOS DIAS 25/03/2022 y 28/03/2022 SE ACTUALIZARA ESTA SECCIÓN Y EL RESTO DEL REPOSITORIO DE MANERA DEFINITIVA
