@@ -54,7 +54,13 @@ Una vez modelada la base de datos se conectó Microsoft Power BI a la misma y se
 
 - Se corrigieron las alteraciones de los valores de las tablas que se produjeron en caracteres con acentos y eñes reemplazandolos por valores correspondientes.
 
-En el informe se establecieron 4 solapas: 
+- Se agregaron varias medidas calculadas y columnas calculadas según los requerido para este informe. Las fórmulas y nombres de las mismas se detallan a continuación:
+
+
+
+
+
+Para el informe se conformaron 4 solapas: 
  
 -"Portada": Titúlo, Autor, índice.
 
@@ -63,6 +69,8 @@ En el informe se establecieron 4 solapas:
 -"Disciplinas": Información gráfica sobre las distribución de los proyectos en relación a las distintas areas disciplinarias y los tipos de proyectos, con la posibilidad de filtrar mediante año y periodos entre años. 
 
 -"Género":  Información gráfica sobre la cantidad de mujeres y varones miembros y directores/as en cada proyecto, con la posibilidad de aplicar varios filtros.
+
+
 
 EL PROYECTO SE ENCUENTRA EN ETAPA DE FINALIZACIÓN. DURANTE EL DIA 29/03/2022 SE ACTUALIZARA ESTA SECCIÓN Y EL RESTO DEL REPOSITORIO DE MANERA DEFINITIVA.
 
