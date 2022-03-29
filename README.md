@@ -44,7 +44,7 @@ Con el objetivo de limpiar la base de datos de registros y campos innecesarios a
 
 7- Establecer las Primary Keys y Foreign Keys correspondientes a cada tabla.
 
-Las sentencias SQL utilizadas para realizar este conjunto de procesos estan detalladas en el archivo [procesamiento_SQL.sql](/proceso_SQL.sql) del presente repositorio.
+Las sentencias SQL utilizadas para realizar este conjunto de procesos estan detalladas en el archivo [procesamiento_SQL.sql](/procesamiento_SQL.sql) del presente repositorio.
 
 
 ## 4- Transformación y visualización de datos mediante Power BI
