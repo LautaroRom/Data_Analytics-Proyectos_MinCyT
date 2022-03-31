@@ -56,9 +56,11 @@ Una vez modelada la base de datos se conectó Microsoft Power BI a la misma y se
 
 - Se agregaron varias medidas calculadas y columnas calculadas según los requerido para este informe. Las fórmulas y nombres de las mismas se detallan a continuación:
 
+![Medidas Calculadas 1](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Medidas1.png)
+![Medidas Calculadas 2](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Medidas2.png)
 
-
-
+Cabe aclarar que las columnas calculadas siguientes pertenecen todas a la tabla "genero":
+![Columnas calculadas](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/ColumnasCalc.png)
 
 Para el informe se conformaron 4 solapas: 
  
