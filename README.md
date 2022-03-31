@@ -108,8 +108,7 @@ Para el informe se conformaron 4 páginas. A continuación se explicará el cont
    - 5 filtros aplicables a todos los indicadores, tarjetas y KPIs: Rango de años, selector de año en particular, grupo de tipo de proyectos, area del conocimiento y tipo de proyectos.
 ![Solapa Genero](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Genero1.png)
 
-*Actualmente se esta gestionando la obtención de una cuenta de Microsoft Power BI que tenga los permisos necesarios publicar el tablero interactivo en la presente web. 
-
+ACTUALMENTE SE ESTA GESTIONANDO LA OBTENCIÓN DE UNA CUENTA DE MICROSOFT POWER BI QUE TENGA LOS PERMISOS NECESARIOS PARA PUBLICAR EL TABLERO INTERACTIVO EN ESTA WEB.
 
 
 
