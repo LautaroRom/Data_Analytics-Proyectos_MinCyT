@@ -76,6 +76,7 @@ Para el informe se conformaron 4 solapas:
 ![Solapa Genero](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Genero.png)
 
 
+
 EL PROYECTO SE ENCUENTRA EN ETAPA DE FINALIZACIÓN. DURANTE EL DIA 30/03/2022 SE ACTUALIZARA ESTA SECCIÓN Y EL RESTO DEL REPOSITORIO DE MANERA DEFINITIVA.
 
 
