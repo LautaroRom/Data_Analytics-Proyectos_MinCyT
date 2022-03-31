@@ -4,7 +4,7 @@ El presente proyecto tiene como finalidad generar un tablero de información din
 
 Este trabajo espera ser un aporte a la investigación sobre las políticas públicas en materia de ciencia y tecnologia existentes en nuestro país, facilitando la consulta de información comparativa de manera interactiva, como así tambien ser un complemento a los reportes presentados por el Ministerio de Ciencia, Tecnología e Innovación en su [portal de información estadística](https://datos.mincyt.gob.ar/).
 
-Para dirigirse directamente al tablero hacer click aquí.
+Al final de este documento se encontrará el tablero interactivo.
 
 A continuación se documenta las distintas etapas realizadas para su realización:
 
