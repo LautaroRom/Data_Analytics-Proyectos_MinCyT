@@ -103,7 +103,7 @@ Para el informe se conformaron 4 páginas. A continuación se explicará el cont
    
    - KPI: indicador de la variación del porcentaje de mujeres sobre el total de miembros de los proyectos existente en relación al año 2015.
    
-   - KPI: indicador de la variación del porcentaje de directores en relacion al total de directores/as en relación al año 2015.
+   - KPI: indicador de la variación del porcentaje de directoras en relacion al total de directores/as en relación al año 2015.
    
    - 5 filtros aplicables a todos los indicadores, tarjetas y KPIs: Rango de años, selector de año en particular, grupo de tipo de proyectos, area del conocimiento y tipo de proyectos.
 ![Solapa Genero](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Genero1.png)
