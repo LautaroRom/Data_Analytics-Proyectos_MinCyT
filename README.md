@@ -62,25 +62,53 @@ Una vez modelada la base de datos se conectó Microsoft Power BI a la misma y se
 Cabe aclarar que las columnas calculadas siguientes pertenecen todas a la tabla "genero":
 ![Columnas calculadas](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/ColumnasCalc.png)
 
-Para el informe se conformaron 4 solapas: 
+Para el informe se conformaron 4 páginas. A continuación se explicará el contenido y la función de cada una: 
  
--"Portada": Titúlo, Autor, índice.
-
--"Proyectos": Información gráfica de montos solicitados y financiados, y  las cantidades de proyectos con la posibilidad de aplicar varios filtros.
-
--"Disciplinas": Información gráfica sobre las distribución de los proyectos en relación a las distintas areas disciplinarias y los tipos de proyectos, con la posibilidad de filtrar mediante año y periodos entre años. 
-
--"Género":  Información gráfica sobre la cantidad de mujeres y varones miembros y directores/as en cada proyecto, con la posibilidad de aplicar varios filtros.
-
+- Página "Portada": Titúlo, Autor, índice. El indice esta compuesto por botones que dirigen a las paginas correspondientes del informe.
 ![Solapa Portada](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Portada.png)
+
+- Página "Financiamiento":
+ 
+   -Gráfico de columnas agrupadas con el fin de comparar los montos solicitados adjudicados con los montos financiados adjudicados. Gráfico de líneas para ver la evolucion de la cantidad de proyectos a traves de los años.
+  
+   -3 Tarjetas de indicadores: Sumatoria de los montos totales adjudicados a los proyectos, indicador del porcentaje total financiado a los proyectos, indicador de la cantidad de proyectos. 
+  
+   -4 Filtros aplicables a los graficos y las tarjetas: Rango de Años, Grupo de tipo de proyectos (Ciencia o Tecnologia), Area del conocimiento (Ciencias naturales y exactas, Ciencias de la Salud, Ciencias agríciolas, Humanidades, Ingenieria, Ciencias sociales), Tipo de proyectos (33 tipos de proyectos)
 ![Solapa Financiamiento](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Financiamientos.png)
+
+
+- Página "Disciplinas": 
+
+   - Gráfico Treemap para mostrar la proporcion en la cantidad de proyectos para cada disciplina del conocimiento
+  
+   - Tabla para indicar la cantidad de proyectos para cada uno de los 33 tipos de proyectos
+  
+   - Gráfico de barras agrupadas indicando la cantidad de proyectos que pertenecen a cada tipo de fondo 
+  
+   - Gráfico de barras agrupadas marcando la cantidad de proyectos que proceden del CONICET (Consejo Nacional de Investigaciones Científicas y Técnicas) o la ANPCYT(Agencia Nacional de Promoción de la Ciencia y la Tecnología)
+  
+   - 2 Filtros aplicables a todos los gráficos: Rango de años y Año particular.
 ![Solapa Disciplinas](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Disciplinas.png)
+
+
+- Página "Género":  
+
+   - Gráfico circular para mostrar la cantidad y la proporcion de miembros varones y mujeres del total de los equipos que componen los proyectos.
+  
+   - Gráfico de anillos para indicar la cantidad y proporción de los directores varones y mujeres de los proyectos.
+   
+   - Tarjeta para indicar la cantidad de proyectos que tienen al menos el 50% de sus miembros de género femenino.
+   
+   - Tarjeta para indicar el porcentaje de proyectos que tienen al menos el 50% de sus miembros de género femenino sobre el total de proyectos.
+   
+   - KPI: indicador de la variación del porcentaje de mujeres sobre el total de miembros de los proyectos existente en relación al año 2015.
+   
+   - KPI: indicador de la variación del porcentaje de directores en relacion al total de directores/as en relación al año 2015.
+   
+   - 5 filtros aplicables a todos los indicadores, tarjetas y KPIs: Rango de años, selector de año en particular, grupo de tipo de proyectos, area del conocimiento y tipo de proyectos.
 ![Solapa Genero](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Genero1.png)
 
-
-
-EL PROYECTO SE ENCUENTRA EN ETAPA DE FINALIZACIÓN. DURANTE EL DIA 30/03/2022 SE ACTUALIZARA ESTA SECCIÓN Y EL RESTO DEL REPOSITORIO DE MANERA DEFINITIVA.
-
+Actualmente se esta gestionando la obtención de una cuenta de Microsoft Power BI que tenga los permisos necesarios para publicar el tablero interactivo en la presente web. 
 
 
 
