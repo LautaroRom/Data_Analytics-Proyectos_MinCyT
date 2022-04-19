@@ -6,7 +6,7 @@ Este trabajo espera ser un aporte a la investigación sobre las políticas públ
 
 Al final de este documento se encontrará el tablero interactivo.
 
-A continuación se documenta las distintas etapas realizadas para su realización:
+A continuación se documenta las distintas etapas ejecutadas para su realización:
 
 ## 1- Extracción y fuente de datos
 Los datos se extrajeron de [datasets abiertos del Ministerio de Ciencia, Tecnología e Innovación](https://datasets.datos.mincyt.gob.ar/dataset/proyectos-de-ciencia-tecnologia-e-innovacion). Las tablas específicas usadas en este proyecto se encuentran en la carpeta [Tablas Base](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/tree/main/Tablas%20Base) del presente repositorio. Posteriormente
