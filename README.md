@@ -109,7 +109,7 @@ Para el informe se conformaron 4 páginas. A continuación se explicará el cont
 ![Solapa Genero](https://github.com/laut-code/Data_Analytics-Proyectos_MinCyT/blob/main/imagenes_readme/Genero1.png)
 
 ACTUALMENTE SE ESTÁ GESTIONANDO LA OBTENCIÓN DE UNA CUENTA DE MICROSOFT POWER BI QUE TENGA LOS PERMISOS NECESARIOS PARA PUBLICAR EL TABLERO INTERACTIVO EN ESTA WEB.
-POR EL MOMENTO ESTA DISPONIBLE UNA VERSIÓN INCOMPLETA DESARROLLADA EN TABLEAU.
+POR EL MOMENTO ESTA DISPONIBLE UNA [VERSIÓN INCOMPLETA DESARROLLADA EN TABLEAU](https://public.tableau.com/app/profile/lautaro3759/viz/MinCyT/Cantidadyfinanciamiento).
 
 
 
